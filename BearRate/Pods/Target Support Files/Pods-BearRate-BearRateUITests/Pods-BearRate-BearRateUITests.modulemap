@@ -1,0 +1,6 @@
+framework module Pods_BearRate_BearRateUITests {
+  umbrella header "Pods-BearRate-BearRateUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
