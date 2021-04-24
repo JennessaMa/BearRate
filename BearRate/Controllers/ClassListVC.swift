@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import UIKit
+
+class ClassListVC: UIViewController {
+    
+    var classes:[Class]?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+}

@@ -10,9 +10,10 @@ import UIKit
 
 class Class {
     
-    var name: String?
     var classNumber: Int?
+    var name: String?
     var overallRating: Float?
-
+    var professors: [Professor] = []
+    
 }
 

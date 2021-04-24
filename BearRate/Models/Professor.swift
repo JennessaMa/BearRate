@@ -11,7 +11,29 @@ import UIKit
 class Professor {
     
     var name: String?
+    var image: UIImage?
     var overallRating: Float?
     var classes: [Class]?
+    
+    //gets the avg difficulty of this professor teaching a specified class
+    func getAvgDifficulty(classNumber: Int) -> Float {
+        //TODO
+        return 0
+    }
+    
+    func getAvgWorkload(classNumber: Int) -> Float {
+        //TODO
+        return 0
+    }
+    
+    func getAvgClarity(classNumber: Int) -> Float {
+        //TODO
+        return 0
+    }
+    
+    func getAvgHelpfulness(classNumber: Int) -> Float {
+        //TODO
+        return 0
+    }
     
 }
