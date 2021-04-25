@@ -29,6 +29,7 @@
 		D75A3A5C2633707100C7612F /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A3A5B2633707100C7612F /* Review.swift */; };
 		D75A3A612633786500C7612F /* RatingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A3A602633786500C7612F /* RatingInfo.swift */; };
 		D75A3A662633DE2100C7612F /* ClassItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A3A652633DE2100C7612F /* ClassItem.swift */; };
+		D7C9827126353D4F0051CD95 /* ClassListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9827026353D4F0051CD95 /* ClassListItem.swift */; };
 		D7EC88222634C2270066B643 /* ProfessorListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC88212634C2270066B643 /* ProfessorListItem.swift */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		D75A3A5B2633707100C7612F /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		D75A3A602633786500C7612F /* RatingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingInfo.swift; sourceTree = "<group>"; };
 		D75A3A652633DE2100C7612F /* ClassItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassItem.swift; sourceTree = "<group>"; };
+		D7C9827026353D4F0051CD95 /* ClassListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListItem.swift; sourceTree = "<group>"; };
 		D7EC88212634C2270066B643 /* ProfessorListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorListItem.swift; sourceTree = "<group>"; };
 		E706FBC39BD161ADA439B87A /* Pods_BearRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BearRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53ABBC9BDBCBB4AC553279A /* Pods-BearRate-BearRateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearRate-BearRateUITests.release.xcconfig"; path = "Target Support Files/Pods-BearRate-BearRateUITests/Pods-BearRate-BearRateUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				D75A3A602633786500C7612F /* RatingInfo.swift */,
 				D75A3A652633DE2100C7612F /* ClassItem.swift */,
 				D7EC88212634C2270066B643 /* ProfessorListItem.swift */,
+				D7C9827026353D4F0051CD95 /* ClassListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				D72A97AD262E879300C70712 /* ProfessorListVC.swift in Sources */,
 				D7EC88222634C2270066B643 /* ProfessorListItem.swift in Sources */,
 				D72A97CE262E8D0400C70712 /* ClassListVC.swift in Sources */,
+				D7C9827126353D4F0051CD95 /* ClassListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

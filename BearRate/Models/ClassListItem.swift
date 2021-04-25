@@ -1,5 +1,5 @@
 //
-//  ProfessorListItem.swift
+//  ClassListItem.swift
 //  BearRate
 //
 //  Created by Jennessa Ma on 4/24/21.
@@ -7,10 +7,8 @@
 
 import UIKit
 
-class ProfessorListItem: UIView {
-    
-    var image: UIImageView?
-    
+class ClassListItem: UIView {
+
     var nameLabel: UILabel = {
         let lbl = UILabel()
         lbl.textColor = .darkGray
@@ -33,14 +31,13 @@ class ProfessorListItem: UIView {
         let stack = UIStackView()
         stack.axis = .horizontal
         stack.distribution = .equalSpacing
-        stack.spacing = 5
+        stack.spacing = 10
         stack.translatesAutoresizingMaskIntoConstraints = false
         return stack
     }()
     
-    init(frame: CGRect = .zero, profImage: UIImage, name: String, rating: Float) {
+    init(frame: CGRect = .zero, name: String, rating: Float) {
         super.init(frame: frame)
-        image = UIImageView(image: profImage)
         nameLabel.text = name
         ratingLabel.text = String(rating)
         configure()
@@ -57,7 +54,6 @@ class ProfessorListItem: UIView {
     }
     
     private func configure() {
-        //TODO: add image as a small circle to the stack
         infoStack.addArrangedSubview(nameLabel)
         infoStack.addArrangedSubview(ratingLabel)
         addSubview(infoStack)
