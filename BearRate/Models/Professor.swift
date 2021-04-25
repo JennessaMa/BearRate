@@ -36,4 +36,9 @@ class Professor {
         return 0
     }
     
+    func getTeachingEffectiveness() -> Float {
+        //TODO: get from HKN surveys
+        return 0
+    }
+    
 }
