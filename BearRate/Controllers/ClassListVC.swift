@@ -46,18 +46,18 @@ class ClassListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(titleLabel)
-        for item in classItems! {
-            classStack.addArrangedSubview(item)
-        }
-        view.addSubview(classStack)
+//        for item in classItems! {
+//            classStack.addArrangedSubview(item)
+//        }
+//        view.addSubview(classStack)
         
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 15),
             titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
-            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
-            classStack.topAnchor.constraint(lessThanOrEqualTo: titleLabel.bottomAnchor, constant: 15),
-            classStack.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            classStack.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10)
+//            classStack.topAnchor.constraint(lessThanOrEqualTo: titleLabel.bottomAnchor, constant: 15),
+//            classStack.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+//            classStack.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
     

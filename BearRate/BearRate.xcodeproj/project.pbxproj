@@ -29,6 +29,7 @@
 		D75A3A5C2633707100C7612F /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A3A5B2633707100C7612F /* Review.swift */; };
 		D75A3A612633786500C7612F /* RatingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A3A602633786500C7612F /* RatingInfo.swift */; };
 		D75A3A662633DE2100C7612F /* ClassItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A3A652633DE2100C7612F /* ClassItem.swift */; };
+		D782D5292642436B00C488A5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782D5282642436B00C488A5 /* MainVC.swift */; };
 		D7C9827126353D4F0051CD95 /* ClassListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9827026353D4F0051CD95 /* ClassListItem.swift */; };
 		D7C982762635D94E0051CD95 /* ClassProfessorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C982752635D94E0051CD95 /* ClassProfessorItem.swift */; };
 		D7C9827B2635DD9B0051CD95 /* ClassProfessorObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9827A2635DD9B0051CD95 /* ClassProfessorObject.swift */; };
@@ -86,6 +87,7 @@
 		D75A3A5B2633707100C7612F /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		D75A3A602633786500C7612F /* RatingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingInfo.swift; sourceTree = "<group>"; };
 		D75A3A652633DE2100C7612F /* ClassItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassItem.swift; sourceTree = "<group>"; };
+		D782D5282642436B00C488A5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		D7C9827026353D4F0051CD95 /* ClassListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListItem.swift; sourceTree = "<group>"; };
 		D7C982752635D94E0051CD95 /* ClassProfessorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassProfessorItem.swift; sourceTree = "<group>"; };
 		D7C9827A2635DD9B0051CD95 /* ClassProfessorObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassProfessorObject.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				D72A97C8262E8CFA00C70712 /* ClassVC.swift */,
 				D72A97CD262E8D0400C70712 /* ClassListVC.swift */,
 				D75A3A5626336C7F00C7612F /* ClassProfessorVC.swift */,
+				D782D5282642436B00C488A5 /* MainVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72A97A8262E878500C70712 /* ProfessorVC.swift in Sources */,
+				D782D5292642436B00C488A5 /* MainVC.swift in Sources */,
 				D7C9827B2635DD9B0051CD95 /* ClassProfessorObject.swift in Sources */,
 				D75A3A662633DE2100C7612F /* ClassItem.swift in Sources */,
 				D72A97C9262E8CFB00C70712 /* ClassVC.swift in Sources */,

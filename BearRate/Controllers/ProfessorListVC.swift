@@ -45,18 +45,18 @@ class ProfessorListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(titleLabel)
-        for item in professorItems! {
-            profStack.addArrangedSubview(item)
-        }
-        view.addSubview(profStack)
+//        for item in professorItems! {
+//            profStack.addArrangedSubview(item)
+//        }
+//        view.addSubview(profStack)
         
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 15),
             titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
-            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
-            profStack.topAnchor.constraint(lessThanOrEqualTo: titleLabel.bottomAnchor, constant: 15),
-            profStack.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            profStack.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            titleLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10)
+//            profStack.topAnchor.constraint(lessThanOrEqualTo: titleLabel.bottomAnchor, constant: 15),
+//            profStack.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+//            profStack.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])
     }
     
